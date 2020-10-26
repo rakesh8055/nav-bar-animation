@@ -228,3 +228,16 @@ nav li:nth-of-type(5) {
 .change .bar3 {
   transform: rotate(45deg) translate(-7px, -8px);
 }
+
+/* Media Query: Large Smartphone (Vertical) */
+@media (max-width: 600px) {
+  section#home a {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .menu-bars {
+    top: 0.5rem;
+    right: 1rem;
+  }
+}
