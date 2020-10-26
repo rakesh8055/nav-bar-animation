@@ -231,7 +231,7 @@ nav li:nth-of-type(5) {
 
 /* Media Query: Large Smartphone (Vertical) */
 @media (max-width: 600px) {
-  section#home a {
+  section#home-section a {
     top: 1rem;
     left: 1rem;
   }
